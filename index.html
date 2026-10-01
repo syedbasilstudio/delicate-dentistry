@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delicate Dentistry Wiltshire | Dentistry, with a gentler touch.</title>
+<meta name="description" content="Thoughtful private dentistry, cosmetic care and personalised treatment in a calm, welcoming practice in Westbury, Wiltshire. Dentistry, with a gentler touch.">
+<meta name="keywords" content="Delicate Dentistry Wiltshire, dentist Westbury Wiltshire, private dentist Westbury, cosmetic dentistry Westbury, tooth whitening Westbury, composite bonding Westbury, dentures Westbury, dental hygienist Westbury, dental check-up Westbury">
+<meta property="og:title" content="Delicate Dentistry Wiltshire | Dentistry, with a gentler touch.">
+<meta property="og:description" content="Thoughtful private dentistry in a calm, welcoming practice in Westbury, Wiltshire.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   DELICATE DENTISTRY WILTSHIRE — STANDALONE FLAGSHIP
+   Dentistry, with a gentler touch.
+   ============================================================ */
+
+:root{
+  --ivory:#F9F7F2;
+  --ivory-soft:#F4F1EA;
+  --stone:#E8E3D9;
+  --charcoal:#2D2D2A;
+  --charcoal-soft:#3A3A36;
+  --taupe:#A89F90;
+  --warm-grey:#8C8A82;
+  --sage:#7D8471;
+  --sage-deep:#62685A;
+  --hairline:rgba(45,45,42,0.14);
+  --hairline-light:rgba(45,45,42,0.08);
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --ease:cubic-bezier(0.22,1,0.36,1);
+  --gutter:clamp(1.5rem,5vw,5rem);
+  --maxw:1400px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  background:var(--ivory);
+  color:var(--charcoal);
+  font-family:var(--sans);
+  font-weight:300;
+  font-size:16px;
+  line-height:1.7;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+:focus-visible{outline:2px solid var(--sage);outline-offset:4px;border-radius:2px;}
+
+::selection{background:var(--charcoal);color:var(--ivory);}
+
+/* ---------- Typography ---------- */
+.eyebrow{
+  font-family:var(--sans);
+  font-size:0.7rem;
+  font-weight:500;
+  letter-spacing:0.28em;
+  text-transform:uppercase;
+  color:var(--warm-grey);
+}
+.serif{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacing:-0.01em;}
+h1.serif,h2.serif{font-family:var(--serif);font-weight:400;line-height:1.04;letter-spacing:-0.015em;}
+.lead{font-size:clamp(1.05rem,1.6vw,1.25rem);line-height:1.7;color:var(--charcoal-soft);font-weight:300;}
+
+/* ---------- Layout ---------- */
+section{padding:clamp(5rem,10vw,9rem) var(--gutter);position:relative;}
+.container{max-width:var(--maxw);margin:0 auto;}
+.hairline{height:1px;background:var(--hairline);border:none;width:100%;}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:0.6em;
+  font-family:var(--sans);font-size:0.72rem;font-weight:500;
+  letter-spacing:0.22em;text-transform:uppercase;
+  padding:1.15rem 2.4rem;
+  transition:all 0.5s var(--ease);
+  position:relative;
+}
+.btn-primary{background:var(--charcoal);color:var(--ivory);}
+.btn-primary:hover{background:var(--sage-deep);}
+.btn-ghost{background:transparent;color:var(--charcoal);border:1px solid var(--hairline);}
+.btn-ghost:hover{border-color:var(--charcoal);background:var(--charcoal);color:var(--ivory);}
+.btn-light{background:var(--ivory);color:var(--charcoal);}
+.btn-light:hover{background:var(--sage);color:var(--ivory);}
+.btn-outline-light{background:transparent;color:var(--ivory);border:1px solid rgba(249,247,242,0.3);}
+.btn-outline-light:hover{background:var(--ivory);color:var(--charcoal);}
+.btn .arrow{transition:transform 0.4s var(--ease);}
+.btn:hover .arrow{transform:translateX(6px);}
+
+.link-arrow{
+  display:inline-flex;align-items:center;gap:0.5em;
+  font-size:0.72rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--charcoal);position:relative;padding-bottom:3px;
+}
+.link-arrow::after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--charcoal);transform:scaleX(0);transform-origin:left;transition:transform 0.5s var(--ease);}
+.link-arrow:hover::after{transform:scaleX(1);}
+.link-arrow .arrow{transition:transform 0.4s var(--ease);}
+.link-arrow:hover .arrow{transform:translateX(5px);}
+.link-arrow.light{color:var(--ivory);}
+.link-arrow.light::after{background:var(--ivory);}
+
+/* ============================================================
+   CINEMATIC ENTRANCE
+   ============================================================ */
+#loader{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--ivory);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  transition:opacity 0.9s var(--ease),visibility 0.9s var(--ease);
+}
+#loader.done{opacity:0;visibility:hidden;}
+.loader-mark{
+  font-family:var(--serif);
+  font-size:clamp(2.5rem,7vw,5rem);
+  font-weight:400;
+  letter-spacing:0.02em;
+  line-height:1;
+  text-align:center;
+  color:var(--charcoal);
+  opacity:0;
+  animation:fadeUp 0.8s var(--ease) 0.15s forwards;
+}
+.loader-mark .sub{
+  display:block;
+  font-family:var(--sans);
+  font-size:0.7rem;
+  font-weight:500;
+  letter-spacing:0.35em;
+  text-transform:uppercase;
+  color:var(--warm-grey);
+  margin-top:1.2rem;
+}
+.loader-line{
+  width:0;height:1px;background:var(--charcoal);
+  margin:2.2rem 0 1.4rem;
+  animation:lineGrow 1s var(--ease) 0.5s forwards;
+}
+.loader-words{
+  font-size:0.68rem;font-weight:500;letter-spacing:0.4em;text-transform:uppercase;
+  color:var(--warm-grey);
+  opacity:0;
+  animation:fadeUp 0.7s var(--ease) 1.1s forwards;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+@keyframes lineGrow{from{width:0;}to{width:180px;}}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1.6rem var(--gutter);
+  transition:background 0.5s var(--ease),padding 0.5s var(--ease),box-shadow 0.5s var(--ease);
+  background:transparent;
+}
+.nav.scrolled{
+  background:rgba(249,247,242,0.92);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  padding:1rem var(--gutter);
+  box-shadow:0 1px 0 var(--hairline-light);
+}
+.nav-logo{
+  font-family:var(--serif);font-size:1.15rem;font-weight:500;letter-spacing:0.04em;
+  color:var(--charcoal);line-height:1;
+}
+.nav-logo .small{display:block;font-family:var(--sans);font-size:0.58rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;color:var(--warm-grey);margin-top:4px;}
+.nav-links{display:flex;align-items:center;gap:2.4rem;}
+.nav-link{
+  font-size:0.72rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--charcoal);position:relative;padding:4px 0;
+}
+.nav-link::after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--charcoal);transform:scaleX(0);transform-origin:right;transition:transform 0.4s var(--ease);}
+.nav-link:hover::after{transform:scaleX(1);transform-origin:left;}
+.nav-cta{margin-left:0.5rem;}
+.nav-mobile-cta{display:none;}
+.nav-toggle{display:none;flex-direction:column;gap:5px;padding:8px;}
+.nav-toggle span{width:24px;height:1px;background:var(--charcoal);transition:0.4s var(--ease);}
+.nav-toggle.open span:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.nav-toggle.open span:nth-child(2){opacity:0;}
+.nav-toggle.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+.mobile-menu{
+  position:fixed;inset:0;z-index:999;
+  background:var(--ivory);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2rem;
+  transform:translateY(-100%);transition:transform 0.6s var(--ease);
+}
+.mobile-menu.open{transform:translateY(0);}
+.mobile-menu a{
+  font-family:var(--serif);font-size:2rem;font-weight:400;color:var(--charcoal);
+}
+.mobile-menu .btn{margin-top:1rem;}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  min-height:100vh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:0 var(--gutter) clamp(3rem,6vw,5rem);
+  position:relative;
+  background:linear-gradient(180deg,var(--ivory-soft) 0%,var(--ivory) 100%);
+  overflow:hidden;
+}
+.hero-image-area{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse at 70% 30%,rgba(125,132,113,0.10) 0%,transparent 55%),
+    linear-gradient(135deg,var(--ivory-soft) 0%,var(--stone) 100%);
+  clip-path:inset(0 0 100% 0);
+  animation:heroReveal 1.3s var(--ease) 1.4s forwards;
+}
+.hero-image-area::after{
+  content:'';position:absolute;inset:0;
+  background:
+    repeating-linear-gradient(38deg,transparent,transparent 40px,rgba(45,45,42,0.012) 40px,rgba(45,45,42,0.012) 41px);
+}
+@keyframes heroReveal{to{clip-path:inset(0 0 0 0);}}
+.hero-inner{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;width:100%;}
+.hero-eyebrow{margin-bottom:1.8rem;opacity:0;animation:fadeUp 1s var(--ease) 1.8s forwards;}
+.hero h1{
+  font-family:var(--serif);
+  font-size:clamp(3rem,9vw,7.5rem);
+  font-weight:400;
+  line-height:0.98;
+  letter-spacing:-0.02em;
+  margin-bottom:2rem;
+}
+.hero h1 .line{display:block;overflow:hidden;}
+.hero h1 .line span{display:inline-block;transform:translateY(110%);animation:lineUp 1s var(--ease) forwards;}
+.hero h1 .line:nth-child(1) span{animation-delay:1.9s;}
+.hero h1 .line:nth-child(2) span{animation-delay:2.05s;}
+.hero h1 .line:nth-child(3) span{animation-delay:2.2s;}
+.hero h1 .line:nth-child(4) span{animation-delay:2.35s;}
+@keyframes lineUp{to{transform:translateY(0);}}
+.hero h1 em{font-style:italic;color:var(--sage-deep);}
+.hero-copy{
+  max-width:30rem;font-size:clamp(1rem,1.4vw,1.15rem);line-height:1.7;color:var(--charcoal-soft);
+  margin-bottom:2.5rem;opacity:0;animation:fadeUp 1s var(--ease) 2.6s forwards;
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:1rem;opacity:0;animation:fadeUp 1s var(--ease) 2.8s forwards;}
+.hero-loc{
+  position:absolute;bottom:2rem;right:var(--gutter);
+  font-size:0.68rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;color:var(--warm-grey);
+  opacity:0;animation:fadeUp 1s var(--ease) 3s forwards;z-index:2;
+}
+.hero-scroll{
+  position:absolute;bottom:2rem;left:var(--gutter);
+  font-size:0.62rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;color:var(--warm-grey);
+  display:flex;align-items:center;gap:0.6rem;opacity:0;animation:fadeUp 1s var(--ease) 3.1s forwards;z-index:2;
+}
+.hero-scroll .dot{width:5px;height:5px;border-radius:50%;background:var(--sage);animation:pulse 2.4s ease-in-out infinite;}
+@keyframes pulse{0%,100%{opacity:0.4;}50%{opacity:1;}}
+
+/* ============================================================
+   EMOTIONAL HOOK
+   ============================================================ */
+.hook{background:var(--ivory);text-align:center;}
+.hook .container{max-width:60rem;}
+.hook h2{
+  font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,4.2rem);font-weight:400;
+  line-height:1.08;letter-spacing:-0.015em;margin-bottom:2.5rem;
+}
+.hook p{max-width:38rem;margin:0 auto 2.5rem;font-size:clamp(1.05rem,1.5vw,1.2rem);color:var(--charcoal-soft);}
+
+/* ============================================================
+   FEEL AT EASE
+   ============================================================ */
+.ease{
+  background:var(--charcoal);color:var(--ivory);
+  position:relative;overflow:hidden;
+}
+.ease::before{
+  content:'';position:absolute;top:0;left:50%;width:1px;height:60px;background:var(--taupe);
+  transform:translateX(-50%);
+}
+.ease-inner{max-width:64rem;margin:0 auto;text-align:center;}
+.ease h2{
+  font-family:var(--serif);font-size:clamp(3.5rem,12vw,9rem);font-weight:300;
+  line-height:0.95;letter-spacing:-0.02em;margin-bottom:3.5rem;color:var(--ivory);
+}
+.ease h2 em{font-style:italic;color:var(--sage);}
+.ease-quote{
+  font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.6vw,2rem);
+  line-height:1.5;color:var(--ivory);max-width:44rem;margin:0 auto 2rem;font-weight:300;
+}
+.ease-quote .qmark{font-size:3em;line-height:0;vertical-align:-0.3em;color:var(--sage);margin-right:0.1em;}
+.ease-label{
+  font-size:0.66rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;
+  color:var(--taupe);margin-bottom:3rem;
+}
+.ease-quiet{
+  font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,1.8vw,1.4rem);
+  color:var(--taupe);font-weight:300;
+}
+
+/* ============================================================
+   TRUST STRIP
+   ============================================================ */
+.trust{background:var(--ivory-soft);padding:clamp(3.5rem,6vw,5rem) var(--gutter);}
+.trust-grid{
+  max-width:var(--maxw);margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--hairline);
+}
+.trust-item{background:var(--ivory-soft);padding:2.5rem 1.5rem;text-align:center;}
+.trust-num{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);font-weight:400;line-height:1;color:var(--charcoal);margin-bottom:0.8rem;}
+.trust-lbl{font-size:0.66rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--warm-grey);line-height:1.5;}
+
+/* ============================================================
+   DISCOVERY — WHAT BRINGS YOU HERE
+   ============================================================ */
+.discovery{background:var(--ivory);}
+.section-head{max-width:var(--maxw);margin:0 auto 4rem;}
+.section-head .eyebrow{margin-bottom:1.5rem;}
+.section-head h2{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.8rem);font-weight:400;line-height:1.05;letter-spacing:-0.015em;max-width:30rem;}
+.discovery-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hairline);}
+.discovery-card{background:var(--ivory);padding:clamp(2.5rem,4vw,3.5rem) clamp(2rem,3vw,2.8rem);transition:background 0.5s var(--ease);display:flex;flex-direction:column;}
+.discovery-card:hover{background:var(--ivory-soft);}
+.discovery-num{font-family:var(--serif);font-size:1.1rem;color:var(--sage);margin-bottom:1.5rem;letter-spacing:0.05em;}
+.discovery-title{font-family:var(--serif);font-size:clamp(1.6rem,2.5vw,2.1rem);font-weight:400;margin-bottom:0.3rem;line-height:1.1;}
+.discovery-sub{font-size:0.72rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--warm-grey);margin-bottom:1.8rem;}
+.discovery-list{list-style:none;}
+.discovery-list li{font-size:0.92rem;color:var(--charcoal-soft);padding:0.5rem 0;border-bottom:1px solid var(--hairline-light);font-weight:300;}
+.discovery-list li:last-child{border-bottom:none;}
+
+/* ============================================================
+   COSMETIC FEATURE
+   ============================================================ */
+.cosmetic{background:var(--ivory-soft);overflow:hidden;}
+.cosmetic-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,6rem);align-items:center;}
+.cosmetic-visual{
+  aspect-ratio:4/5;
+  background:
+    radial-gradient(ellipse at 30% 70%,rgba(125,132,113,0.14),transparent 60%),
+    linear-gradient(160deg,var(--stone),var(--ivory-soft));
+  position:relative;
+}
+.cosmetic-visual::after{
+  content:'';position:absolute;inset:1.5rem;border:1px solid rgba(45,45,42,0.08);
+}
+.cosmetic-text h2{font-family:var(--serif);font-size:clamp(2.2rem,4.5vw,3.6rem);font-weight:400;line-height:1.05;letter-spacing:-0.015em;margin-bottom:2rem;}
+.cosmetic-text h2 em{font-style:italic;color:var(--sage-deep);}
+.cosmetic-feature{margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid var(--hairline);}
+.cosmetic-feature-name{font-size:0.72rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--sage-deep);margin-bottom:1rem;}
+.cosmetic-feature p{font-size:1.05rem;color:var(--charcoal-soft);margin-bottom:1rem;}
+.cosmetic-price{font-family:var(--serif);font-size:1.4rem;color:var(--charcoal);}
+.cosmetic-links{display:flex;flex-direction:column;gap:0.8rem;margin-top:2rem;}
+.cosmetic-links a{font-size:0.78rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--charcoal-soft);padding:0.6rem 0;border-bottom:1px solid var(--hairline-light);transition:color 0.3s,padding-left 0.4s var(--ease);}
+.cosmetic-links a:hover{color:var(--charcoal);padding-left:0.8rem;}
+
+/* ============================================================
+   WHITENING FEATURE
+   ============================================================ */
+.whitening{background:var(--charcoal);color:var(--ivory);overflow:hidden;}
+.whitening-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,6rem);align-items:center;}
+.whitening-text h2{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);font-weight:400;line-height:1.05;letter-spacing:-0.015em;margin-bottom:2rem;color:var(--ivory);}
+.whitening-text h2 em{font-style:italic;color:var(--sage);}
+.whitening .eyebrow{color:var(--taupe);margin-bottom:1.5rem;}
+.whitening-price{font-family:var(--serif);font-size:clamp(3rem,6vw,4.5rem);font-weight:300;line-height:1;margin:2rem 0 0.5rem;color:var(--ivory);}
+.whitening-price-note{font-size:0.88rem;color:var(--taupe);margin-bottom:2.5rem;}
+.whitening-visual{
+  aspect-ratio:1/1;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(249,247,242,0.08),transparent 65%),
+    linear-gradient(180deg,var(--charcoal-soft),var(--charcoal));
+  position:relative;
+}
+.whitening-visual::after{
+  content:'';position:absolute;inset:2rem;border:1px solid rgba(249,247,242,0.1);
+}
+
+/* ============================================================
+   RESTORATIVE
+   ============================================================ */
+.restorative{background:var(--ivory);}
+.restorative-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(2.5rem,5vw,4rem);margin-top:3rem;}
+.restorative-card{padding:clamp(2.5rem,4vw,3.5rem);background:var(--ivory-soft);border:1px solid var(--hairline-light);}
+.restorative-card h3{font-family:var(--serif);font-size:clamp(1.6rem,2.5vw,2rem);font-weight:400;margin-bottom:1.5rem;}
+.restorative-card .price{font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.4rem);font-weight:300;color:var(--sage-deep);margin-bottom:1.5rem;}
+.restorative-card p{font-size:0.98rem;color:var(--charcoal-soft);margin-bottom:1.5rem;line-height:1.7;}
+.restorative-card .note{font-size:0.82rem;color:var(--warm-grey);font-style:italic;}
+
+/* ============================================================
+   PATIENT JOURNEY
+   ============================================================ */
+.journey{background:var(--ivory-soft);}
+.journey-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(2rem,4vw,4rem);}
+.journey-step{position:relative;}
+.journey-num{font-family:var(--serif);font-size:clamp(3rem,5vw,4.5rem);font-weight:300;color:var(--sage);line-height:1;margin-bottom:1.5rem;}
+.journey-step h3{font-family:var(--serif);font-size:clamp(1.6rem,2.5vw,2rem);font-weight:400;margin-bottom:1rem;}
+.journey-step p{font-size:1rem;color:var(--charcoal-soft);line-height:1.7;}
+.journey-step:not(:last-child)::after{
+  content:'';position:absolute;top:2rem;right:-2rem;width:1px;height:60%;background:var(--hairline);
+}
+
+/* ============================================================
+   PRICE GUIDE
+   ============================================================ */
+.prices{background:var(--ivory);}
+.price-disclaimer{
+  max-width:var(--maxw);margin:3rem auto 0;
+  padding:2rem;border:1px solid var(--hairline);background:var(--ivory-soft);
+  font-style:italic;color:var(--charcoal-soft);font-size:0.95rem;text-align:center;
+}
+.price-accordion{max-width:var(--maxw);margin:0 auto;}
+.price-cat{border-bottom:1px solid var(--hairline);}
+.price-cat-head{
+  width:100%;display:flex;align-items:center;justify-content:space-between;
+  padding:clamp(1.8rem,3vw,2.5rem) 0;background:none;border:none;text-align:left;
+  font-family:var(--serif);font-size:clamp(1.5rem,2.5vw,2rem);font-weight:400;color:var(--charcoal);
+  transition:color 0.3s;
+}
+.price-cat-head:hover{color:var(--sage-deep);}
+.price-cat-head .icon{font-size:1.5rem;font-weight:300;transition:transform 0.5s var(--ease);color:var(--sage);}
+.price-cat.open .price-cat-head .icon{transform:rotate(45deg);}
+.price-cat-body{max-height:0;overflow:hidden;transition:max-height 0.6s var(--ease);}
+.price-cat-body-inner{padding:0 0 2rem;}
+.price-row{display:flex;justify-content:space-between;align-items:baseline;gap:1.5rem;padding:1.1rem 0;border-bottom:1px solid var(--hairline-light);}
+.price-row:last-child{border-bottom:none;}
+.price-row-name{font-size:0.98rem;color:var(--charcoal);font-weight:400;}
+.price-row-name .note{display:block;font-size:0.82rem;color:var(--warm-grey);font-weight:300;margin-top:3px;}
+.price-row-price{font-family:var(--serif);font-size:1.3rem;color:var(--charcoal);white-space:nowrap;text-align:right;}
+
+/* ============================================================
+   MOUTH CANCER CHECK
+   ============================================================ */
+.cancer{background:var(--ivory-soft);text-align:center;}
+.cancer .container{max-width:52rem;}
+.cancer h2{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.6rem);font-weight:400;line-height:1.08;margin-bottom:2rem;}
+.cancer p{max-width:36rem;margin:0 auto;font-size:1.05rem;color:var(--charcoal-soft);line-height:1.7;}
+
+/* ============================================================
+   TEAM
+   ============================================================ */
+.team{background:var(--ivory);}
+.team-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,6rem);align-items:center;}
+.team-visual{
+  aspect-ratio:4/5;
+  background:
+    radial-gradient(ellipse at 50% 40%,rgba(125,132,113,0.12),transparent 60%),
+    linear-gradient(150deg,var(--stone),var(--ivory-soft));
+  position:relative;
+}
+.team-visual::after{content:'';position:absolute;inset:1.5rem;border:1px solid rgba(45,45,42,0.08);}
+.team-text h2{font-family:var(--serif);font-size:clamp(2.2rem,4.5vw,3.6rem);font-weight:400;line-height:1.05;margin-bottom:2rem;}
+.team-text p{font-size:1.05rem;color:var(--charcoal-soft);margin-bottom:1.5rem;line-height:1.7;}
+.team-note{font-size:0.85rem;color:var(--warm-grey);font-style:italic;}
+
+/* ============================================================
+   REVIEWS
+   ============================================================ */
+.reviews{background:var(--charcoal);color:var(--ivory);overflow:hidden;}
+.reviews-head{text-align:center;margin-bottom:5rem;}
+.reviews-head .eyebrow{color:var(--taupe);}
+.reviews-head h2{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.6rem);font-weight:400;color:var(--ivory);}
+.reviews-head .rating{font-family:var(--serif);font-size:1.5rem;color:var(--sage);margin-top:1rem;}
+.review-featured{max-width:56rem;margin:0 auto 5rem;text-align:center;}
+.review-featured .qmark{font-family:var(--serif);font-size:6rem;line-height:0.5;color:var(--sage);display:block;margin-bottom:1rem;}
+.review-featured blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,2.8vw,2.2rem);line-height:1.5;font-weight:300;color:var(--ivory);margin-bottom:2rem;}
+.review-featured cite{font-size:0.68rem;font-weight:500;letter-spacing:0.25em;text-transform:uppercase;color:var(--taupe);font-style:normal;}
+.review-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(2rem,4vw,3rem);}
+.review-card{padding:clamp(2rem,3vw,2.8rem);border:1px solid rgba(249,247,242,0.12);background:rgba(249,247,242,0.02);transition:background 0.5s var(--ease);}
+.review-card:hover{background:rgba(249,247,242,0.05);}
+.review-card .qmark{font-family:var(--serif);font-size:3rem;line-height:0.5;color:var(--sage);display:block;margin-bottom:1.2rem;}
+.review-card blockquote{font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.6;font-weight:300;color:var(--ivory);margin-bottom:1.5rem;}
+.review-card cite{font-size:0.66rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--taupe);font-style:normal;}
+
+/* ============================================================
+   NERVOUS PATIENTS
+   ============================================================ */
+.nervous{background:var(--ivory-soft);text-align:center;}
+.nervous .container{max-width:52rem;}
+.nervous h2{font-family:var(--serif);font-size:clamp(2.4rem,5.5vw,4rem);font-weight:400;line-height:1.05;margin-bottom:2rem;}
+.nervous p{font-size:1.1rem;color:var(--charcoal-soft);max-width:34rem;margin:0 auto 2.5rem;line-height:1.7;}
+
+/* ============================================================
+   CONTACT / EMERGENCY
+   ============================================================ */
+.contact{background:var(--ivory);}
+.contact-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(2rem,4vw,3rem);}
+.contact-item{text-align:center;padding:2rem 1rem;}
+.contact-item .eyebrow{margin-bottom:1rem;}
+.contact-item .val{font-family:var(--serif);font-size:clamp(1.3rem,2vw,1.6rem);color:var(--charcoal);margin-bottom:0.5rem;}
+.contact-item .val a{transition:color 0.3s;}
+.contact-item .val a:hover{color:var(--sage-deep);}
+.contact-item .sub{font-size:0.88rem;color:var(--warm-grey);}
+.contact-actions{display:flex;justify-content:center;gap:1rem;margin-top:3rem;flex-wrap:wrap;}
+
+/* ============================================================
+   LOCATION
+   ============================================================ */
+.location{background:var(--charcoal);color:var(--ivory);}
+.location-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,5rem);align-items:center;}
+.location-text h2{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4rem);font-weight:400;line-height:1.05;margin-bottom:2rem;color:var(--ivory);}
+.location-text .addr{font-size:1.1rem;line-height:1.8;color:var(--ivory);margin-bottom:2.5rem;}
+.location-text .addr span{display:block;}
+.location-actions{display:flex;flex-direction:column;gap:1.2rem;align-items:flex-start;}
+.location-map{
+  aspect-ratio:4/3;
+  background:
+    radial-gradient(ellipse at 40% 60%,rgba(125,132,113,0.15),transparent 60%),
+    linear-gradient(160deg,var(--charcoal-soft),var(--charcoal));
+  position:relative;border:1px solid rgba(249,247,242,0.1);
+  display:flex;align-items:center;justify-content:center;
+}
+.location-map .pin{
+  width:14px;height:14px;border-radius:50%;background:var(--sage);
+  box-shadow:0 0 0 8px rgba(125,132,113,0.2),0 0 0 18px rgba(125,132,113,0.1);
+}
+.location-map .map-label{position:absolute;bottom:1.5rem;left:1.5rem;font-size:0.66rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--taupe);}
+
+/* ============================================================
+   FINAL CTA
+   ============================================================ */
+.final-cta{background:var(--charcoal);color:var(--ivory);text-align:center;padding:clamp(6rem,12vw,10rem) var(--gutter);position:relative;}
+.final-cta::before{content:'';position:absolute;top:0;left:50%;width:1px;height:50px;background:var(--taupe);transform:translateX(-50%);}
+.final-cta h2{font-family:var(--serif);font-size:clamp(2.8rem,7vw,5.5rem);font-weight:300;line-height:1.05;letter-spacing:-0.02em;margin-bottom:2rem;color:var(--ivory);}
+.final-cta p{font-size:1.1rem;color:var(--taupe);max-width:34rem;margin:0 auto 3rem;line-height:1.7;}
+.final-cta-actions{display:flex;flex-direction:column;align-items:center;gap:1.5rem;}
+.final-cta-phone{font-family:var(--serif);font-size:1.6rem;color:var(--ivory);margin-top:0.5rem;}
+.final-cta-hours{font-size:0.66rem;font-weight:500;letter-spacing:0.3em;text-transform:uppercase;color:var(--taupe);margin-top:1rem;}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer{background:var(--charcoal);color:var(--ivory);padding:4rem var(--gutter) 3rem;border-top:1px solid rgba(249,247,242,0.08);}
+.footer-grid{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;}
+.footer-brand .name{font-family:var(--serif);font-size:1.4rem;font-weight:500;margin-bottom:0.3rem;}
+.footer-brand .tag{font-family:var(--serif);font-style:italic;font-size:1rem;color:var(--taupe);margin-bottom:1.5rem;}
+.footer-brand .addr{font-size:0.9rem;line-height:1.8;color:var(--taupe);}
+.footer-col h4{font-size:0.66rem;font-weight:500;letter-spacing:0.25em;text-transform:uppercase;color:var(--taupe);margin-bottom:1.2rem;}
+.footer-col a{display:block;font-size:0.92rem;color:var(--ivory);padding:0.35rem 0;transition:color 0.3s;}
+.footer-col a:hover{color:var(--sage);}
+.footer-bottom{max-width:var(--maxw);margin:3rem auto 0;padding-top:2rem;border-top:1px solid rgba(249,247,242,0.08);display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-size:0.78rem;color:var(--taupe);}
+
+/* ============================================================
+   CONCIERGE
+   ============================================================ */
+.concierge-btn{
+  position:fixed;bottom:1.5rem;right:1.5rem;z-index:900;
+  width:56px;height:56px;border-radius:50%;
+  background:var(--charcoal);color:var(--ivory);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 30px rgba(45,45,42,0.25);
+  transition:transform 0.4s var(--ease),background 0.4s;
+}
+.concierge-btn:hover{transform:scale(1.06);background:var(--sage-deep);}
+.concierge-btn .mono{font-family:var(--serif);font-size:1.6rem;font-weight:500;line-height:1;}
+.concierge-btn .badge{
+  position:absolute;top:-2px;right:-2px;width:18px;height:18px;border-radius:50%;
+  background:var(--sage);border:2px solid var(--ivory);font-size:0.55rem;font-weight:600;
+  display:flex;align-items:center;justify-content:center;color:var(--ivory);
+}
+.concierge-label{
+  position:fixed;bottom:2.3rem;right:5rem;z-index:900;
+  font-size:0.68rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--charcoal);background:var(--ivory);padding:0.6rem 1rem;border:1px solid var(--hairline);
+  opacity:0;transform:translateX(10px);transition:all 0.5s var(--ease);pointer-events:none;
+}
+.concierge-label.show{opacity:1;transform:translateX(0);}
+
+.concierge-panel{
+  position:fixed;bottom:5rem;right:1.5rem;z-index:901;
+  width:min(380px,calc(100vw - 3rem));
+  max-height:min(70vh,640px);
+  background:var(--ivory);border:1px solid var(--hairline);
+  box-shadow:0 20px 60px rgba(45,45,42,0.18);
+  display:flex;flex-direction:column;
+  transform:translateY(20px) scale(0.96);opacity:0;visibility:hidden;
+  transition:all 0.5s var(--ease);
+}
+.concierge-panel.open{transform:translateY(0) scale(1);opacity:1;visibility:visible;}
+.concierge-header{padding:1.5rem;border-bottom:1px solid var(--hairline-light);display:flex;justify-content:space-between;align-items:flex-start;}
+.concierge-header .title{font-family:var(--serif);font-size:1.3rem;font-weight:500;}
+.concierge-header .sub{font-size:0.66rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--warm-grey);margin-top:3px;}
+.concierge-close{font-size:1.4rem;color:var(--warm-grey);line-height:1;padding:4px;transition:color 0.3s;}
+.concierge-close:hover{color:var(--charcoal);}
+.concierge-body{flex:1;overflow-y:auto;padding:1.5rem;}
+.concierge-greeting{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--charcoal-soft);margin-bottom:1.5rem;line-height:1.6;}
+.concierge-options{display:flex;flex-direction:column;gap:0.6rem;margin-bottom:1.5rem;}
+.concierge-opt{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 1.2rem;background:var(--ivory-soft);border:1px solid var(--hairline-light);
+  font-size:0.82rem;font-weight:500;letter-spacing:0.08em;text-align:left;
+  transition:all 0.3s var(--ease);
+}
+.concierge-opt:hover{background:var(--charcoal);color:var(--ivory);border-color:var(--charcoal);}
+.concierge-opt .arrow{font-size:1.1rem;opacity:0.5;}
+.concierge-opt:hover .arrow{opacity:1;transform:translateX(4px);}
+.concierge-answer{display:none;padding:1.2rem;background:var(--ivory-soft);border-left:2px solid var(--sage);font-size:0.9rem;line-height:1.7;color:var(--charcoal-soft);margin-bottom:1.5rem;}
+.concierge-answer.show{display:block;}
+.concierge-answer .a-title{font-family:var(--serif);font-size:1.1rem;color:var(--charcoal);margin-bottom:0.6rem;font-weight:500;}
+.concierge-back{font-size:0.72rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--sage-deep);margin-top:1rem;display:inline-flex;align-items:center;gap:0.4rem;}
+.concierge-footer{padding:1rem 1.5rem;border-top:1px solid var(--hairline-light);font-size:0.72rem;color:var(--warm-grey);text-align:center;line-height:1.5;}
+.concierge-footer a{color:var(--sage-deep);font-weight:500;}
+
+/* ============================================================
+   SCROLL REVEAL
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity 1s var(--ease),transform 1s var(--ease);}
+.reveal.in{opacity:1;transform:translateY(0);}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:900px){
+  .nav-links{display:none;}
+  .nav-toggle{display:flex;}
+  .nav-mobile-cta{display:inline-flex;}
+  .trust-grid{grid-template-columns:repeat(2,1fr);}
+  .discovery-grid{grid-template-columns:repeat(2,1fr);}
+  .cosmetic-grid,.whitening-grid,.team-grid,.location-grid{grid-template-columns:1fr;}
+  .restorative-grid{grid-template-columns:1fr;}
+  .journey-grid{grid-template-columns:1fr;gap:3rem;}
+  .journey-step::after{display:none;}
+  .journey-step:not(:last-child){padding-bottom:3rem;border-bottom:1px solid var(--hairline);}
+  .review-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:2.5rem;}
+  .cosmetic-visual,.team-visual,.whitening-visual{max-height:400px;}
+  .whitening-visual{order:-1;}
+}
+@media(max-width:560px){
+  .trust-grid{grid-template-columns:1fr;}
+  .discovery-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .price-row{flex-direction:column;align-items:flex-start;gap:0.3rem;}
+  .price-row-price{text-align:left;}
+  .hero h1{font-size:clamp(2.6rem,14vw,4rem);}
+  .concierge-label{display:none;}
+}
+
+/* ---------- Reduced motion ---------- */
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important;}
+  .reveal{opacity:1;transform:none;}
+  .hero h1 .line span{transform:none;}
+  .hero-image-area{clip-path:inset(0);}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================ CINEMATIC ENTRANCE ============================================================ -->
+<div id="loader" role="status" aria-label="Loading">
+  <div class="loader-mark">
+    DELICATE<br>DENTISTRY
+    <span class="sub">Wiltshire</span>
+  </div>
+  <div class="loader-line"></div>
+  <div class="loader-words">Precision · Comfort · Confidence</div>
+</div>
+
+<!-- ============================================================ NAVIGATION ============================================================ -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-logo" aria-label="Delicate Dentistry Wiltshire — home">
+    DELICATE
+    <span class="small">Dentistry Wiltshire</span>
+  </a>
+  <div class="nav-links">
+    <a href="#discovery" class="nav-link">Treatments</a>
+    <a href="#cosmetic" class="nav-link">Cosmetic Dentistry</a>
+    <a href="#prices" class="nav-link">Prices</a>
+    <a href="#team" class="nav-link">About</a>
+    <a href="#reviews" class="nav-link">Reviews</a>
+    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#contact" class="btn btn-primary nav-cta">Book an Appointment</a>
+  </div>
+  <button class="btn btn-primary nav-mobile-cta" onclick="location.href='#contact'">Book</button>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#discovery" class="mobile-link">Treatments</a>
+  <a href="#cosmetic" class="mobile-link">Cosmetic Dentistry</a>
+  <a href="#prices" class="mobile-link">Prices</a>
+  <a href="#team" class="mobile-link">About</a>
+  <a href="#reviews" class="mobile-link">Reviews</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+  <a href="#contact" class="btn btn-primary">Book an Appointment</a>
+</div>
+
+<!-- ============================================================ HERO ============================================================ -->
+<header class="hero" id="top">
+  <div class="hero-image-area" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow hero-eyebrow">Private Dentistry · Westbury</p>
+    <h1>
+      <span class="line"><span>Dentistry,</span></span>
+      <span class="line"><span>with a</span></span>
+      <span class="line"><span><em>gentler</em></span></span>
+      <span class="line"><span>touch.</span></span>
+    </h1>
+    <p class="hero-copy">Thoughtful dentistry, cosmetic care and personalised treatment in a calm and welcoming practice in Westbury, Wiltshire.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">Book an Appointment <span class="arrow">→</span></a>
+      <a href="#discovery" class="btn btn-ghost">Explore Treatments</a>
+    </div>
+  </div>
+  <div class="hero-scroll"><span class="dot"></span> Scroll to explore</div>
+  <div class="hero-loc">Westbury · Wiltshire</div>
+</header>
+
+<!-- ============================================================ EMOTIONAL HOOK ============================================================ -->
+<section class="hook reveal">
+  <div class="container">
+    <h2>Before the treatment,<br>comes the person.</h2>
+    <p>Good dentistry is not only about the treatment itself. It is about listening, understanding what matters to you and creating an experience in which you feel comfortable and informed.</p>
+    <a href="#team" class="link-arrow">Discover Delicate Dentistry <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<hr class="hairline">
+
+<!-- ============================================================ FEEL AT EASE ============================================================ -->
+<section class="ease reveal">
+  <div class="ease-inner">
+    <h2>Feel<br><em>at ease.</em></h2>
+    <blockquote class="ease-quote">
+      <span class="qmark">“</span>As a highly sensitive person, this is quite incredible. As soon as I felt the dentist's hand, I sensed the gentleness and my whole body began to relax. I did not feel the needle at all. I began to relax so much I had moments of almost falling asleep!
+    </blockquote>
+    <p class="ease-label">Verified Patient via Dental Phobia Forum</p>
+    <p class="ease-quiet">A calmer dental experience begins with feeling heard.</p>
+  </div>
+</section>
+
+<!-- ============================================================ TRUST STRIP ============================================================ -->
+<section class="trust reveal">
+  <div class="trust-grid">
+    <div class="trust-item"><div class="trust-num">20+ Years</div><div class="trust-lbl">Patient relationships<br>built on trust</div></div>
+    <div class="trust-item"><div class="trust-num">5.0 / 5</div><div class="trust-lbl">Current practice<br>rating</div></div>
+    <div class="trust-item"><div class="trust-num">Mon — Fri</div><div class="trust-lbl">9am — 5pm<br>Opening hours</div></div>
+    <div class="trust-item"><div class="trust-num">Every Visit</div><div class="trust-lbl">Full mouth cancer check<br>at adult check-ups</div></div>
+  </div>
+</section>
+
+<!-- ============================================================ DISCOVERY ============================================================ -->
+<section class="discovery" id="discovery">
+  <div class="section-head reveal">
+    <p class="eyebrow">Dentistry Discovery</p>
+    <h2>What brings<br>you here?</h2>
+  </div>
+  <div class="discovery-grid reveal">
+    <div class="discovery-card">
+      <div class="discovery-num">01</div>
+      <h3 class="discovery-title">Care</h3>
+      <p class="discovery-sub">Routine Dentistry</p>
+      <ul class="discovery-list">
+        <li>Check-ups</li><li>Fillings</li><li>Root fillings</li><li>Crowns</li><li>Scaling</li><li>Hygiene</li>
+      </ul>
+    </div>
+    <div class="discovery-card">
+      <div class="discovery-num">02</div>
+      <h3 class="discovery-title">Restore</h3>
+      <p class="discovery-sub">Repair &amp; Replacement</p>
+      <ul class="discovery-list">
+        <li>Amalgam replacement</li><li>Dentures</li><li>Bonded Maryland Bridges</li><li>Restorative treatment</li>
+      </ul>
+    </div>
+    <div class="discovery-card">
+      <div class="discovery-num">03</div>
+      <h3 class="discovery-title">Enhance</h3>
+      <p class="discovery-sub">Cosmetic Dentistry</p>
+      <ul class="discovery-list">
+        <li>Composite bonding</li><li>Porcelain veneers</li><li>Crowns</li><li>Tooth whitening</li>
+      </ul>
+    </div>
+    <div class="discovery-card">
+      <div class="discovery-num">04</div>
+      <h3 class="discovery-title">Confidence</h3>
+      <p class="discovery-sub">A Better Smile</p>
+      <ul class="discovery-list">
+        <li>Whitening</li><li>Composite bonding</li><li>Cosmetic consultations</li><li>Personalised treatment planning</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ COSMETIC FEATURE ============================================================ -->
+<section class="cosmetic" id="cosmetic">
+  <div class="cosmetic-grid">
+    <div class="cosmetic-visual reveal" aria-hidden="true"></div>
+    <div class="cosmetic-text reveal">
+      <p class="eyebrow">Cosmetic Dentistry</p>
+      <h2>Your smile,<br><em>considered</em><br>differently.</h2>
+      <div class="cosmetic-feature">
+        <p class="cosmetic-feature-name">Composite Bonding</p>
+        <p>Front teeth which are chipped or slightly out of position can often be improved using bonded composite.</p>
+        <p class="cosmetic-price">Individual quotation</p>
+      </div>
+      <a href="#contact" class="link-arrow">Discuss your smile <span class="arrow">→</span></a>
+      <div class="cosmetic-links">
+        <a href="#prices">Porcelain Veneers</a>
+        <a href="#prices">Crowns</a>
+        <a href="#whitening">Tooth Whitening</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ WHITENING ============================================================ -->
+<section class="whitening" id="whitening">
+  <div class="whitening-grid">
+    <div class="whitening-text reveal">
+      <p class="eyebrow">Tooth Whitening</p>
+      <h2>A brighter<br>smile, <em>considered.</em></h2>
+      <div class="whitening-price">£300</div>
+      <p class="whitening-price-note">Upper + lower teeth.</p>
+      <a href="#contact" class="link-arrow light">Enquire about whitening <span class="arrow">→</span></a>
+    </div>
+    <div class="whitening-visual reveal" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ============================================================ RESTORATIVE ============================================================ -->
+<section class="restorative" id="restorative">
+  <div class="section-head reveal">
+    <p class="eyebrow">Restorative Dentistry</p>
+    <h2>Restore. Repair.<br>Rebuild.</h2>
+  </div>
+  <div class="restorative-grid">
+    <div class="restorative-card reveal">
+      <h3>Amalgam Replacement</h3>
+      <div class="price">£150–£250 <span style="font-size:0.6em;color:var(--warm-grey);">per tooth</span></div>
+      <p>Amalgam replacement may be carried out to improve appearance or because of concerns about the mercury in amalgams.</p>
+      <p class="note">Your dentist can discuss whether this treatment is suitable for you.</p>
+    </div>
+    <div class="restorative-card reveal">
+      <h3>Bonded Maryland Bridge</h3>
+      <div class="price">£850 <span style="font-size:0.6em;color:var(--warm-grey);">typical single-tooth</span></div>
+      <p>Where possible, this method does not require drilling and is fixed in place.</p>
+      <p class="note">Suitability depends on the individual case. Your dentist can discuss your options.</p>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:3rem;">
+    <a href="#contact" class="link-arrow">Discuss your options <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ============================================================ PATIENT JOURNEY ============================================================ -->
+<section class="journey">
+  <div class="section-head reveal">
+    <p class="eyebrow">The Patient Journey</p>
+    <h2>How your visit<br>unfolds.</h2>
+  </div>
+  <div class="journey-grid reveal">
+    <div class="journey-step">
+      <div class="journey-num">01</div>
+      <h3>Listen</h3>
+      <p>Tell us what brings you in. We take the time to hear what matters to you.</p>
+    </div>
+    <div class="journey-step">
+      <div class="journey-num">02</div>
+      <h3>Understand</h3>
+      <p>Discuss your dental needs and treatment options in a way that feels clear and unhurried.</p>
+    </div>
+    <div class="journey-step">
+      <div class="journey-num">03</div>
+      <h3>Plan</h3>
+      <p>Move forward with a treatment plan that has been discussed with you, at your pace.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ PRICE GUIDE ============================================================ -->
+<section class="prices" id="prices">
+  <div class="section-head reveal">
+    <p class="eyebrow">Price Guide</p>
+    <h2>Clear, honest<br>pricing.</h2>
+  </div>
+  <div class="price-accordion reveal">
+
+    <div class="price-cat">
+      <button class="price-cat-head" aria-expanded="false">Check-ups &amp; Hygiene <span class="icon">+</span></button>
+      <div class="price-cat-body">
+        <div class="price-cat-body-inner">
+          <div class="price-row"><div class="price-row-name">New Patient Check-Up<span class="note">Including X-rays as required</span></div><div class="price-row-price">£95</div></div>
+          <div class="price-row"><div class="price-row-name">Routine Check-Up</div><div class="price-row-price">£60</div></div>
+          <div class="price-row"><div class="price-row-name">Routine Check-Up + Scaling</div><div class="price-row-price">£95</div></div>
+          <div class="price-row"><div class="price-row-name">Hygienist<span class="note">30 minutes</span></div><div class="price-row-price">£80</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-cat">
+      <button class="price-cat-head" aria-expanded="false">Restorative <span class="icon">+</span></button>
+      <div class="price-cat-body">
+        <div class="price-cat-body-inner">
+          <div class="price-row"><div class="price-row-name">Filling — Front Teeth</div><div class="price-row-price">From £100</div></div>
+          <div class="price-row"><div class="price-row-name">Filling — Back Teeth</div><div class="price-row-price">£180–£270</div></div>
+          <div class="price-row"><div class="price-row-name">Root Filling</div><div class="price-row-price">£425–£850</div></div>
+          <div class="price-row"><div class="price-row-name">Crown</div><div class="price-row-price">£750</div></div>
+          <div class="price-row"><div class="price-row-name">Set of Dentures</div><div class="price-row-price">£1,275–£1,600</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-cat">
+      <button class="price-cat-head" aria-expanded="false">Cosmetic <span class="icon">+</span></button>
+      <div class="price-cat-body">
+        <div class="price-cat-body-inner">
+          <div class="price-row"><div class="price-row-name">Tooth Whitening<span class="note">Upper + lower teeth</span></div><div class="price-row-price">£300</div></div>
+          <div class="price-row"><div class="price-row-name">Amalgam Replacement<span class="note">Per tooth</span></div><div class="price-row-price">£150–£250</div></div>
+          <div class="price-row"><div class="price-row-name">Composite Bonding</div><div class="price-row-price">Individual quotation</div></div>
+          <div class="price-row"><div class="price-row-name">Porcelain Veneers</div><div class="price-row-price">Individual quotation</div></div>
+          <div class="price-row"><div class="price-row-name">Porcelain Crowns</div><div class="price-row-price">Individual quotation</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-cat">
+      <button class="price-cat-head" aria-expanded="false">Missing Teeth <span class="icon">+</span></button>
+      <div class="price-cat-body">
+        <div class="price-cat-body-inner">
+          <div class="price-row"><div class="price-row-name">Bonded Maryland Bridge<span class="note">Typical single-tooth bridge</span></div><div class="price-row-price">£850</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="price-disclaimer reveal">
+    "These prices are for guidance only. You will be given an exact price when the work is discussed with your dentist."
+  </div>
+</section>
+
+<!-- ============================================================ MOUTH CANCER CHECK ============================================================ -->
+<section class="cancer reveal">
+  <div class="container">
+    <p class="eyebrow" style="margin-bottom:1.5rem;">Part of Your Care</p>
+    <h2>Part of your<br>regular check-up.</h2>
+    <p>A full mouth cancer check is carried out at every adult check-up, according to the practice information supplied. It is a quiet, routine part of looking after you — not something to worry about.</p>
+  </div>
+</section>
+
+<!-- ============================================================ TEAM ============================================================ -->
+<section class="team" id="team">
+  <div class="team-grid">
+    <div class="team-visual reveal" aria-hidden="true"></div>
+    <div class="team-text reveal">
+      <p class="eyebrow" style="margin-bottom:1.5rem;">The Practice</p>
+      <h2>The people<br>behind your care.</h2>
+      <p>Delicate Dentistry Wiltshire is a private dental practice built on long-term relationships, gentle treatment and genuine care for every person who walks through the door.</p>
+      <p>From routine check-ups to cosmetic and restorative dentistry, the team takes pride in listening first — and treating second.</p>
+      <p class="team-note">Genuine team photography will be added here. No staff, names or credentials have been fabricated.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ REVIEWS ============================================================ -->
+<section class="reviews" id="reviews">
+  <div class="reviews-head reveal">
+    <p class="eyebrow">Patient Voices</p>
+    <h2>What patients say.</h2>
+    <div class="rating">5.0 / 5</div>
+  </div>
+
+  <div class="review-featured reveal">
+    <span class="qmark">“</span>
+    <blockquote>As a highly sensitive person, this is quite incredible. As soon as I felt the dentist's hand, I sensed the gentleness and my whole body began to relax. I did not feel the needle at all. I began to relax so much I had moments of almost falling asleep!</blockquote>
+    <cite>Verified Patient via Dental Phobia Forum</cite>
+  </div>
+
+  <div class="review-grid reveal">
+    <div class="review-card">
+      <span class="qmark">“</span>
+      <blockquote>I've been a patient with Delicate Dentistry for 20 years and I've always had the highest-quality care and treatment.</blockquote>
+      <cite>Verified Patient</cite>
+    </div>
+    <div class="review-card">
+      <span class="qmark">“</span>
+      <blockquote>The level of professionalism was brilliant. Neha and her dental nurse Monica performed my composite bonding and I couldn't be happier with the results.</blockquote>
+      <cite>Verified Patient</cite>
+    </div>
+    <div class="review-card">
+      <span class="qmark">“</span>
+      <blockquote>I have been using Delicate Dentistry for a couple of years now as I became very disappointed with my last dentist, and it was the best decision I've ever made. Mark and his team are a very professional and friendly team.</blockquote>
+      <cite>Verified Patient</cite>
+    </div>
+    <div class="review-card">
+      <span class="qmark">“</span>
+      <blockquote>Mark and his team are a very professional and friendly team, and Jen is the best hygienist I have ever been seen by. Thank you all so very much.</blockquote>
+      <cite>Verified Patient</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ NERVOUS PATIENTS ============================================================ -->
+<section class="nervous reveal">
+  <div class="container">
+    <p class="eyebrow" style="margin-bottom:1.5rem;">For Nervous Patients</p>
+    <h2>Nervous about<br>the dentist?</h2>
+    <p>You are not alone. A dental appointment can feel very different when you feel listened to, reassured and comfortable.</p>
+    <a href="#contact" class="link-arrow">Talk to the team <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ============================================================ CONTACT ============================================================ -->
+<section class="contact" id="contact">
+  <div class="section-head reveal" style="text-align:center;">
+    <p class="eyebrow" style="margin-bottom:1.5rem;">Contact the Practice</p>
+    <h2 class="serif" style="font-size:clamp(2.2rem,5vw,3.6rem);font-weight:400;line-height:1.05;">We're here to help.</h2>
+  </div>
+  <div class="contact-grid reveal">
+    <div class="contact-item">
+      <p class="eyebrow">Telephone</p>
+      <div class="val"><a href="tel:+441373822229">+44 1373 822229</a></div>
+      <p class="sub">Monday — Friday</p>
+    </div>
+    <div class="contact-item">
+      <p class="eyebrow">Email</p>
+      <div class="val"><a href="mailto:delicatedentistry@gmail.com">delicatedentistry@gmail.com</a></div>
+      <p class="sub">We reply promptly</p>
+    </div>
+    <div class="contact-item">
+      <p class="eyebrow">Opening Hours</p>
+      <div class="val">9am — 5pm</div>
+      <p class="sub">Monday — Friday</p>
+    </div>
+  </div>
+  <div class="contact-actions reveal">
+    <a href="tel:+441373822229" class="btn btn-primary">Call the Practice <span class="arrow">→</span></a>
+    <a href="mailto:delicatedentistry@gmail.com" class="btn btn-ghost">Email the Practice</a>
+  </div>
+</section>
+
+<!-- ============================================================ LOCATION ============================================================ -->
+<section class="location" id="location">
+  <div class="location-grid">
+    <div class="location-text reveal">
+      <p class="eyebrow" style="color:var(--taupe);margin-bottom:1.5rem;">Find Us</p>
+      <h2>Find<br>Delicate Dentistry.</h2>
+      <div class="addr">
+        <span>1 Hospital Road</span>
+        <span>Westbury</span>
+        <span>BA13 3EQ</span>
+        <span>United Kingdom</span>
+      </div>
+      <div class="location-actions">
+        <a href="https://www.google.com/maps/search/?api=1&query=1+Hospital+Road+Westbury+BA13+3EQ" target="_blank" rel="noopener" class="btn btn-light">Get Directions <span class="arrow">→</span></a>
+        <a href="tel:+441373822229" class="link-arrow light">Call the Practice <span class="arrow">→</span></a>
+      </div>
+    </div>
+    <div class="location-map reveal" aria-hidden="true">
+      <div class="pin"></div>
+      <span class="map-label">Westbury · Wiltshire</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FINAL CTA ============================================================ -->
+<section class="final-cta">
+  <h2>Your next<br>visit should<br>feel different.</h2>
+  <p>Thoughtful dentistry in a calm, welcoming environment in Westbury, Wiltshire.</p>
+  <div class="final-cta-actions">
+    <a href="tel:+441373822229" class="btn btn-light">Book an Appointment <span class="arrow">→</span></a>
+    <a href="tel:+441373822229" class="final-cta-phone">+44 1373 822229</a>
+    <p class="final-cta-hours">Monday — Friday · 9am — 5pm</p>
+  </div>
+</section>
+
+<!-- ============================================================ FOOTER ============================================================ -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="name">DELICATE DENTISTRY</div>
+      <div class="tag">Wiltshire</div>
+      <p class="addr">
+        Thoughtful dentistry.<br>A gentler approach.<br><br>
+        1 Hospital Road<br>Westbury<br>BA13 3EQ
+      </p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+441373822229">+44 1373 822229</a>
+      <a href="mailto:delicatedentistry@gmail.com">delicatedentistry@gmail.com</a>
+      <p style="font-size:0.9rem;color:var(--taupe);padding:0.35rem 0;">Mon — Fri · 9am — 5pm</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#discovery">Treatments</a>
+      <a href="#cosmetic">Cosmetic Dentistry</a>
+      <a href="#prices">Prices</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#location">Location</a>
+    </div>
+    <div class="footer-col">
+      <h4>Social</h4>
+      <a href="https://www.instagram.com/delicatedentistrywiltshire/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/share/1DmF7kQ62b/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Delicate Dentistry Wiltshire. All rights reserved.</span>
+    <span><a href="#" style="color:var(--taupe);">Privacy</a> · <a href="#" style="color:var(--taupe);">Terms</a></span>
+  </div>
+</footer>
+
+<!-- ============================================================ CONCIERGE ============================================================ -->
+<div class="concierge-label" id="conciergeLabel">Need some help?</div>
+<button class="concierge-btn" id="conciergeBtn" aria-label="Open concierge assistant">
+  <span class="mono">D</span>
+  <span class="badge">?</span>
+</button>
+
+<div class="concierge-panel" id="conciergePanel" role="dialog" aria-label="Delicate concierge">
+  <div class="concierge-header">
+    <div>
+      <div class="title">DELicate</div>
+      <div class="sub">How can we help?</div>
+    </div>
+    <button class="concierge-close" id="conciergeClose" aria-label="Close concierge">×</button>
+  </div>
+  <div class="concierge-body" id="conciergeBody">
+    <p class="concierge-greeting">Welcome. I'm here to help you find what you need. Choose a topic below and I'll guide you.</p>
+    <div class="concierge-options" id="conciergeOptions">
+      <button class="concierge-opt" data-key="book">Book an Appointment <span class="arrow">→</span></button>
+      <button class="concierge-opt" data-key="prices">Explore Prices <span class="arrow">→</span></button>
+      <button class="concierge-opt" data-key="cosmetic">Cosmetic Dentistry <span class="arrow">→</span></button>
+      <button class="concierge-opt" data-key="routine">Routine Dentistry <span class="arrow">→</span></button>
+      <button class="concierge-opt" data-key="whitening">Tooth Whitening <span class="arrow">→</span></button>
+      <button class="concierge-opt" data-key="contact">Contact the Practice <span class="arrow">→</span></button>
+    </div>
+    <div class="concierge-answer" id="conciergeAnswer"></div>
+  </div>
+  <div class="concierge-footer">
+    This is a guided information assistant, not a diagnostic tool.<br>
+    For dental advice, please <a href="tel:+441373822229">call the practice</a>.
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ---------- Year ---------- */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---------- Cinematic entrance ---------- */
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  function hideLoader(){
+    var l = document.getElementById('loader');
+    if(l) l.classList.add('done');
+    setTimeout(function(){ var l2=document.getElementById('loader'); if(l2) l2.style.display='none'; }, 1000);
+  }
+  if(reduceMotion){
+    hideLoader();
+  } else {
+    window.addEventListener('load', function(){ setTimeout(hideLoader, 2600); });
+    setTimeout(hideLoader, 4000); /* failsafe */
+  }
+
+  /* ---------- Nav scroll state ---------- */
+  var nav = document.getElementById('nav');
+  function onScroll(){
+    if(window.scrollY > 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- Mobile menu ---------- */
+  var toggle = document.getElementById('navToggle');
+  var menu = document.getElementById('mobileMenu');
+  toggle.addEventListener('click', function(){
+    var open = menu.classList.toggle('open');
+    toggle.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      menu.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+      document.body.style.overflow = '';
+    });
+  });
+
+  /* ---------- Scroll reveal ---------- */
+  var reveals = document.querySelectorAll('.reveal');
+  if(reduceMotion){
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -60px 0px'});
+    reveals.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---------- Price accordion ---------- */
+  document.querySelectorAll('.price-cat-head').forEach(function(head){
+    head.addEventListener('click', function(){
+      var cat = head.parentElement;
+      var body = head.nextElementSibling;
+      var isOpen = cat.classList.contains('open');
+      /* close all */
+      document.querySelectorAll('.price-cat').forEach(function(c){
+        c.classList.remove('open');
+        c.querySelector('.price-cat-body').style.maxHeight = null;
+        c.querySelector('.price-cat-head').setAttribute('aria-expanded','false');
+      });
+      if(!isOpen){
+        cat.classList.add('open');
+        body.style.maxHeight = body.scrollHeight + 'px';
+        head.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  /* ---------- Concierge ---------- */
+  var cBtn = document.getElementById('conciergeBtn');
+  var cPanel = document.getElementById('conciergePanel');
+  var cClose = document.getElementById('conciergeClose');
+  var cLabel = document.getElementById('conciergeLabel');
+  var cAnswer = document.getElementById('conciergeAnswer');
+  var cOptions = document.getElementById('conciergeOptions');
+
+  var answers = {
+    book: {
+      title: 'Book an Appointment',
+      body: 'The simplest way to book is to call the practice on <a href="tel:+441373822229"><strong>+44 1373 822229</strong></a> during opening hours, or email <a href="mailto:delicatedentistry@gmail.com"><strong>delicatedentistry@gmail.com</strong></a>. The team will find a time that suits you.',
+      cta: '<a href="tel:+441373822229" class="link-arrow" style="margin-top:1rem;">Call now <span class="arrow">→</span></a>'
+    },
+    prices: {
+      title: 'Treatment Prices',
+      body: 'Our prices are transparent and listed in full on our <a href="#prices"><strong>Price Guide</strong></a>. New patient check-ups from £95, routine check-ups £60, hygienist £80, tooth whitening £300, and amalgam replacement £150–£250 per tooth. Composite bonding, porcelain veneers and crowns are priced by individual quotation.',
+      cta: '<a href="#prices" class="link-arrow" style="margin-top:1rem;">View full price guide <span class="arrow">→</span></a>'
+    },
+    cosmetic: {
+      title: 'Cosmetic Dentistry',
+      body: 'We offer composite bonding, porcelain veneers, crowns and tooth whitening. Composite bonding can improve chipped or slightly misaligned front teeth. Cosmetic treatments are priced by individual quotation, as every smile is different. Your dentist can discuss whether a treatment is suitable for you.',
+      cta: '<a href="#cosmetic" class="link-arrow" style="margin-top:1rem;">Explore cosmetic dentistry <span class="arrow">→</span></a>'
+    },
+    routine: {
+      title: 'Routine Dentistry',
+      body: 'Our routine care includes check-ups, fillings, root fillings, crowns, scaling and hygiene visits. A full mouth cancer check is carried out at every adult check-up. New patient check-ups are £95 (including X-rays as required).',
+      cta: '<a href="#discovery" class="link-arrow" style="margin-top:1rem;">Explore treatments <span class="arrow">→</span></a>'
+    },
+    whitening: {
+      title: 'Tooth Whitening',
+      body: 'Our tooth whitening is £300 for upper and lower teeth. We do not guarantee a specific shade improvement, as results vary by individual. Your dentist can discuss whether whitening is suitable for you.',
+      cta: '<a href="#contact" class="link-arrow" style="margin-top:1rem;">Enquire about whitening <span class="arrow">→</span></a>'
+    },
+    contact: {
+      title: 'Contact the Practice',
+      body: 'Telephone: <a href="tel:+441373822229"><strong>+44 1373 822229</strong></a><br>Email: <a href="mailto:delicatedentistry@gmail.com"><strong>delicatedentistry@gmail.com</strong></a><br>Address: 1 Hospital Road, Westbury, BA13 3EQ<br>Opening hours: Monday — Friday, 9am — 5pm',
+      cta: '<a href="#location" class="link-arrow" style="margin-top:1rem;">Find us <span class="arrow">→</span></a>'
+    }
+  };
+
+  function openConcierge(){
+    cPanel.classList.add('open');
+    cBtn.setAttribute('aria-expanded','true');
+  }
+  function closeConcierge(){
+    cPanel.classList.remove('open');
+    cBtn.setAttribute('aria-expanded','false');
+    cAnswer.classList.remove('show');
+    cAnswer.innerHTML = '';
+    cOptions.style.display = '';
+  }
+  cBtn.addEventListener('click', function(){
+    if(cPanel.classList.contains('open')) closeConcierge();
+    else openConcierge();
+  });
+  cClose.addEventListener('click', closeConcierge);
+
+  cOptions.querySelectorAll('.concierge-opt').forEach(function(opt){
+    opt.addEventListener('click', function(){
+      var key = opt.getAttribute('data-key');
+      var a = answers[key];
+      if(!a) return;
+      cOptions.style.display = 'none';
+      cAnswer.innerHTML = '<div class="a-title">'+a.title+'</div>'+a.body+a.cta+
+        '<button class="concierge-back" id="cBack">← Back to topics</button>';
+      cAnswer.classList.add('show');
+      document.getElementById('cBack').addEventListener('click', function(){
+        cAnswer.classList.remove('show');
+        cAnswer.innerHTML = '';
+        cOptions.style.display = '';
+      });
+    });
+  });
+
+  /* show label after delay */
+  setTimeout(function(){
+    if(!reduceMotion && window.scrollY < 200){
+      cLabel.classList.add('show');
+      setTimeout(function(){ cLabel.classList.remove('show'); }, 4000);
+    }
+  }, 5000);
+
+  /* close concierge on escape */
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      if(cPanel.classList.contains('open')) closeConcierge();
+      if(menu.classList.contains('open')){
+        menu.classList.remove('open');
+        toggle.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+  });
+
+  /* recalc open accordion height on resize */
+  window.addEventListener('resize', function(){
+    document.querySelectorAll('.price-cat.open .price-cat-body').forEach(function(b){
+      b.style.maxHeight = b.scrollHeight + 'px';
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
